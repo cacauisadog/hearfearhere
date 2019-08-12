@@ -1,0 +1,30 @@
+{
+  "name": "hearfearhere",
+  "version": "1.0.0",
+  "description": "short horror stories with a brazilian twist.",
+  "author": "cacauisadog",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "ress": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^7.2.0"
+  }
+}
